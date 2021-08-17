@@ -1,0 +1,16 @@
+{
+  "name": "ffmpeg-require-flag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --require ./required.js --experimental-wasm-threads ."
+  },
+  "keywords": [],
+  "author": "Kent C. Dodds <me@kentcdodds.com> (https://kentcdodds.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.1"
+  }
+}
